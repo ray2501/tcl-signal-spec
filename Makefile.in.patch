@@ -1,0 +1,11 @@
+--- Makefile.in.orig	2021-05-06 21:20:00.512213893 +0800
++++ Makefile.in	2021-05-06 21:20:06.588223203 +0800
+@@ -415,7 +415,7 @@
+ 	    echo " Install pkgIndex.tcl $(DESTDIR)$(pkglibdir)"; \
+ 	    $(INSTALL_DATA) pkgIndex.tcl $(DESTDIR)$(pkglibdir); \
+ 	fi
+-	$(INSTALL_DATA) tclsignalConfig.sh $(DESTDIR)$(libdir)
++	#$(INSTALL_DATA) tclsignalConfig.sh $(DESTDIR)$(libdir)
+ 
+ #========================================================================
+ # Install binary executables (e.g. .exe files and dependent .dll files)

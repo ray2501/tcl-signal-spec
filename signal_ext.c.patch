@@ -1,0 +1,11 @@
+--- signal_ext.c.orig	2021-05-06 21:01:15.146114416 +0800
++++ signal_ext.c	2021-05-06 21:01:34.846176880 +0800
+@@ -212,7 +212,7 @@
+   return 0;
+ }
+ 
+-int Signal_Init ( Tcl_Interp *interp )
++int Tclsignal_Init ( Tcl_Interp *interp )
+ {
+   return Signal_ext_Init(interp);
+ }
