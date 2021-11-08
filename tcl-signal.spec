@@ -12,12 +12,10 @@ Url:            https://github.com/wjoye/tclsignal
 Summary:        Signal extension for Tcl
 License:        MIT
 Group:          Development/Libraries/Tcl
-Version:        1.4.4
+Version:        1.4.4.1
 Release:        0
 Source0:        %{pkgname}-%{version}.tar.gz
-Patch0:         signal_ext.c.patch
-Patch1:         Makefile.in.patch
-Patch2:         configure.ac.patch
+Patch0:         Makefile.in.patch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 
 %description
@@ -29,8 +27,6 @@ small and quick to load.
 %prep
 %setup -q -n %{pkgname}-%{version}
 %patch0
-%patch1
-%patch2
 
 %build
 autoconf
