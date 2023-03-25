@@ -12,7 +12,7 @@ Url:            https://github.com/wjoye/tclsignal
 Summary:        Signal extension for Tcl
 License:        MIT
 Group:          Development/Libraries/Tcl
-Version:        1.4.4.1
+Version:        1.4.5
 Release:        0
 Source0:        %{pkgname}-%{version}.tar.gz
 Patch0:         Makefile.in.patch
