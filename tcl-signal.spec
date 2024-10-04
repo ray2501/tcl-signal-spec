@@ -26,7 +26,7 @@ small and quick to load.
 
 %prep
 %setup -q -n %{pkgname}-%{version}
-%patch0
+%patch 0
 
 %build
 autoconf
