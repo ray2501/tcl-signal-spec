@@ -4,7 +4,7 @@ set arch "x86_64"
 set base "tclsignal-1.4.5"
 set fileurl "https://github.com/wjoye/tclsignal/archive/refs/tags/v1.4.5.tar.gz"
 
-set var [list wget $fileurl -O $base.tar.gz]
+set var [list wget2 $fileurl -O $base.tar.gz]
 exec >@stdout 2>@stderr {*}$var
 
 if {[file exists build]} {
